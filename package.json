@@ -1,0 +1,32 @@
+{
+  "name": "tmt-toast",
+  "version": "1.0.0",
+  "description": "A simple toast notification library",
+  "main": "dist/toast-library.cjs.js",
+  "module": "dist/toast-library.es.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rollup": "^4.29.1",
+    "vite": "^6.0.6"
+  },
+  "files": [
+  "dist",
+  "README.md"
+],
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "dependencies": {
+    "react-icons": "^5.4.0"
+  }
+}
